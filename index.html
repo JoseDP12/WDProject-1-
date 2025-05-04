@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exclusive Cubs Tickets</title>
+  <link rel="stylesheet" href="reset.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main>
+    <section class="signup-container">
+      <!-- Cubs Logo and Welcome Slogan -->
+      <div class="hero-header">
+        <img src="images/flag.jpg" alt="Chicago Cubs Logo" class="cubs-logo"/>
+        <h2 class="slogan">Where else do you want to be?</h2>
+      </div>
+      <h1>Get Access to Exclusive Cubs Tickets</h1>
+        <p>Sign up now and be the first to know about our VIP offers!</p>
+      <form id="signup-form" novalidate>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required/>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+        <label for="favorite-player">Favorite Cubs Player</label>
+        <input type="text" id="favorite-player" name="favorite-player"/>
+        <button type="submit">Sign Up Now</button>
+        <p id="form-message" class="hidden"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
