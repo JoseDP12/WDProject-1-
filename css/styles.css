@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background: url('images/cubs1.jpg') no-repeat center center fixed;
+  background: url('../images/cubs1.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #222;
   padding: 2rem;
